@@ -1,0 +1,15 @@
+// Custom Varibales & Overrides
+// Please only wite your custom varibales here so that it won't overwrites 
+// when a new version is released
+// Steps: Copy the variables from the default and paste it here to overwrite
+.logo {
+    height: 80px !important;
+}
+
+.navbar {
+    padding: 1.5rem 3.5rem !important;
+}
+
+.highlight {
+    border-bottom: 5px solid $white;
+}

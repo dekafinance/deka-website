@@ -1,0 +1,26 @@
+/*!
+
+Style   : DEKA CSS
+Version : 1.0
+
+TABLE OF CONTENTS
+------------------------------
+
+    • Bootstrap CSS
+    • Template CSS
+        • Global Styles
+        • Navigation
+        • Footer
+        
+---------------------------------------------------
+Note:  If possible, Please edit the SASS Files and
+        use a compiling tool to generate this css.
+---------------------------------------------------
+*/
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "dark-variables";
+@import "user-variables";
+@import "bootstrap/bootstrap";
+@import "style";

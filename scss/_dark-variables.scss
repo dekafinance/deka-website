@@ -1,0 +1,77 @@
+// Bootstrap Overrides
+// sass HTML/scss/dark.scss HTML/css/dark.css
+// Colors
+$black: #212121;
+$black-light: #424242;
+$text-white: #f5f5f5;
+$primary-color: #3bf0a1;
+$primary-light-color: #64F4B6; // #1DEA92;
+$primary-dark-color: #00DD7E; //#00DD7E;
+$white-light: #f5f5f5;
+$neon-pink: #c75be6;
+$neon-green:#3bf0a1; // #38eeb9;
+$neon-blue: #3bf0a1; // #44f1a6;
+$highlight-shade: #20284d;
+$primary: $primary-color;
+$secondary: $black;
+$theme-colors: ( "primary": $primary, "secondary": $secondary, "info":$primary-color);
+$enable-gradients: true;
+//global
+$body-bg: $black;
+$body-color: $white-light;
+// Spacer
+$spacer: 1.5rem;
+// Navbar
+$navbar-padding-y: $spacer;
+$navbar-padding-x: $spacer;
+$navbar-nav-link-padding-x: 1.5rem;
+// fonts
+$font-family-sans-serif: "JetBrains Mono";
+$font-family-base: $font-family-sans-serif;
+// Nav
+$nav-link-padding-y: .5rem;
+$nav-link-padding-x: 2rem;
+// Card
+$card-bg: darken($black, 4%);
+//
+// Template Variables
+//
+// Theme
+$primary-bg: $black;
+
+$link-color: $text-white;
+$link-hover-color: #fff;
+// typography
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-base - 0.1;
+$headings-font-weight: 700;
+$headings-color: $white;
+$text-muted: $white-light;
+$headings-line-height: 1.5;
+//paragraph
+$lead-font-size: ($font-size-base * 1.125);
+$text-muted: desaturate(darken($white-light, 30%), 50%);
+// dropdown 
+$dropdown-bg: $black-light;
+$dropdown-link-color: desaturate(darken($white-light, 10%), 10%);
+$dropdown-link-hover-color: $white-light;
+$dropdown-link-hover-bg: darken($dropdown-bg, 5%);
+$dropdown-divider-bg: lighten($white-light, 15%);
+// Nav
+$navbar-dark-color: $text-white;
+// button
+//$btn-border-width: 0;
+$btn-padding-y: 0.55rem;
+$btn-padding-x: 1.8rem;
+$input-btn-border-width: 2px;
+$btn-border-width: $input-btn-border-width;
+//
+$btn-padding-y-lg: 1.2rem;
+$btn-padding-x-lg: 3.5rem;
+// Progress bars
+$progress-height: 2.5rem;
+$progress-bg: $black;
